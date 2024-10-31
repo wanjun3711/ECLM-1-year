@@ -63,7 +63,7 @@ def predict_Vital_status(age, sex, primary_site, histologic_type,
     return class_label, probability
 
 # 创建Web应用程序
-st.title("1-yera survival of ECLM patients based on XGBoost")
+st.title("1-year survival of ECLM patients based on XGBoost")
 st.sidebar.write("Variables")
 
 age = st.sidebar.selectbox("Age", options=list(age_mapper.keys()))  # 使用选择框
