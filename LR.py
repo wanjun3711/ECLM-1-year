@@ -24,7 +24,7 @@ lr_params = {
     'C': 0.1,
     'penalty': 'l1',
     'solver': 'liblinear',
-    'class_weight': None
+    'class_weight':None
     'random_state': 42
 }
 
